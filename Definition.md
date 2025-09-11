@@ -24,3 +24,5 @@
 ![bar graph](https://www.w3schools.com/python/img_matplotlib_bars1.png)
 - Most of the Matplotlib utilities lie under the pyplot submodule, and are usually imported under the plt alias:
 > import matplotlib.pyplot as plt
+# Steps in Machine Learning Project
+![steps](https://github.com/shruti041/Machine-learning/blob/main/6-step-ml-framework.png)
