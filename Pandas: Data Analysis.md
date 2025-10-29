@@ -15,7 +15,7 @@
 - It is a pandas function used to export data from a DataFrame to a CSV (Comma-Separated-Values) files.
 - It is one of the most common ways to save your processed or cleaned data.
 >car_sales.to_csv("exported-car-sales.csv")\
-:envelope: [to_csv_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html)
+:page_with_curl: [to_csv_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html)
 # dtype
 - dtype stands for data type, it tells you what kind of values are stored in a DataFrame column or a series.
 - Each column in a Pandas DataFrame or a series has a specific datatype<ins>(dtype)</ins>, such as:
@@ -24,31 +24,37 @@
   - object --> text/string values
   - bool --> boolean (True/False)
 > car_sales.dtypes\
-:envelope: [dtype_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dtypes.html)
+:page_with_curl: [dtype_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dtypes.html)
 # index
 - In Pandas, <ins>.index</ins> is an attribute that represents the row labels( or row indices) of a DataFrame or Series.
 > car_sales.index\
-:envelope: [index_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.index.html)
+:page_with_curl: [index_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.index.html)
 - You can also customize the index.
 # describe()
 - The describe() method returns description of the data in the DataFrame.
 > car_sales.describe()<br>
-:envelope: [describe()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html)
+:page_with_curl: [describe()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html)
 
 > [!NOTE]
 > It only works for numeric column.
 # info()
 - Prints information about DataFrame.
 > car_sales.info() <br>
-:envelope: [info()_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html)
+:page_with_curl: [info()_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html)
 # mean()
 - Returns a series with the mean value of each column.
 > car_prices = pd.Series([13000, 567777, 88854]) <br>
 > car_prices.mean() <br>
-:envelope: [mean()_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html)
+:page_with_curl: [mean()_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html)
 # sum()
 - Returns sum of all items in an iterable.
 > car_sales["Doors"].sum()
-
+# tail()
+- The tail() method returns a specified number of last rows.
+- The tail() method returns the last 5 rows if a number is not specified.
+![tail()](https://media.geeksforgeeks.org/wp-content/uploads/20220217141655/pandastail.png)
+> car_sales.tail() \
+:page_with_curl:[tail()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html)
+# loc() and iloc()
 
 
