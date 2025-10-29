@@ -16,7 +16,7 @@
 - The head() method returns a specified number of rows, string from the top.
 - The head() method returns the first 5 rows if a number is not specified.
 > print(df.head())\
-:envelope:[head()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html)
+:envelope:[head()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html)\
 > [!NOTE]
 > The column names will also be returned, in addition to the specified rows.
 # What is Matplotlib?
