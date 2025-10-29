@@ -9,7 +9,8 @@
 - A simple way to store big data sets is to use CSV files. (Comma Separated Files)
 - CSV files contains plain text and is a well known format that can be read by everyone including Pandas.
 - In our example we will using a CSV file called **heart-disease.csv**.
-> df = pd.read_csv("heart-disease.csv")
+> df = pd.read_csv("heart-disease.csv")\
+> [pandas read_csv](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html)
 # Pandas Dataframe head() Method
 ![head()](https://media.geeksforgeeks.org/wp-content/uploads/20220217141329/pandashead.png)
 - The head() method returns a specified number of rows, string from the top.
