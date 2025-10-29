@@ -56,5 +56,10 @@
 > car_sales.tail() \
 :page_with_curl:[tail()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.tail.html)
 # loc() and iloc()
+:memo::pencil: [difference between two](https://www.geeksforgeeks.org/machine-learning/difference-between-loc-and-iloc-in-pandas-dataframe/)
+# pd.crosstab()
 
+In Pandas, <ins>pd.crosstab()</ins> is a very useful function used to compute a <ins>cross-tabulation</ins> -- basically, a frequency table that shows how two( or more) categorical variables are related. 
+
+:page_with_curl: [pd.crosstab()_document](https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html)
 
