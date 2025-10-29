@@ -8,5 +8,5 @@
    >series = pd.Series(["BMW","Toyota","Honda"])\
    >colours = pd.Series(["Red","Blue","White"])
 2. DataFrame ( 2 - Dimensional )
-   >car_data = pd.DataFrame({"Brand" : series, "Colours" : colours})
+   >car_data = pd.DataFrame({"Brand" : series, "Colours" : colours})\
 ![pandas-anatomy-of-a-dataframe](https://github.com/shruti041/Machine-learning/blob/main/pandas-anatomy-of-a-dataframe.png)
