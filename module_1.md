@@ -15,7 +15,10 @@
 ![head()](https://media.geeksforgeeks.org/wp-content/uploads/20220217141329/pandashead.png)
 - The head() method returns a specified number of rows, string from the top.
 - The head() method returns the first 5 rows if a number is not specified.
-> print(df.head())
+> print(df.head())\
+:envelope:[head()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html)
+> [!NOTE]
+> The column names will also be returned, in addition to the specified rows.
 # What is Matplotlib?
 ![logo](https://studyopedia.com/wp-content/uploads/2022/12/Matplotlib-featured-image-studyopedia.png)
 - Matplotlib is a low level graph plotting library in python that serves as a visualization utility.
