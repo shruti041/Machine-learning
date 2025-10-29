@@ -20,6 +20,7 @@
 <br>
 > [!NOTE]
 > The column names will also be returned, in addition to the specified rows.
+<br>
 # What is Matplotlib?
 ![logo](https://studyopedia.com/wp-content/uploads/2022/12/Matplotlib-featured-image-studyopedia.png)
 - Matplotlib is a low level graph plotting library in python that serves as a visualization utility.
