@@ -71,7 +71,59 @@ Method allows you to group your data and execute functions on these groups.
 > car_sales.groupby(["Make"]).mean(numeric_only=True)\
 :page_with_curl: [groupby()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)
 
+<hr>
+
 > car_sales_missing = pd.read_csv("Desktop/car-sales-missing-data.csv")
 
+# fillna() method
+- This method replaces the NULL values with a specified value.
+- It returns a new DataFrame object unless the inplace parameter is set to **True**, in that case the fillna() method does the replacing in the original DataFrame instead.
+- By default inplace is set to **False**; returns a copy where the replacing is done.
+>car_sales_missing["Odometer"].fillna(car_sales_missing["Odometer"].mean(), inplace = True)\
+:page_with_curl: [fillna()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.fillna.html)
 
+> [!NOTE]
+>**Syntax** <br>
+>dataframe.fillna(value, method, axis, inplace, limit, downcast)
 
+# dropna() method
+- This method removes the rows that contains NULL values.
+- It returns a new DataFrame object unless the inplace parameter is set to **True**, in that case the dropna() method does the removing in the original DataFrame instead.
+- By default inplace is set to **False**; returns a copy where the removing is done.
+>car_sales_missing.dropna(inplace = True)\
+:page_with_curl: [dropna()_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html)
+
+> [!NOTE]
+>**Syntax** <br>
+>dataframe.dropna(axis, how, thresh, subset, inplace)
+
+# drop() method
+- It removes the specified row or column.
+> car_sales_missing.drop("Total fuel used",axis = 1, inplace = True)  # axis = 1 means column\
+:book: [drop()](https://www.w3schools.com/Python/pandas/ref_df_drop.asp)\
+:page_with_curl: [drop()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html)
+
+# sample() method
+- It returns a specified number of random rows.
+- Returns 1 row if a number is not specified.
+>car_sales_missing.sample(frac = 0.5)   # 50% of data and it is a copy of DataFrame\
+>car_sales_missing = car_sales_missing.sample(frac = 1)  # all data\
+>car_sales_missing  # changes made to original DataFrame\
+:page_with_curl: [sample()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sample.html)
+
+# reset_index() method
+- This method allows you to reset the index back to the default 0,1,2 etc indexes.
+> car_sales_missing.reset_index(drop = True, inplace = True)\
+:page_with_curl: [reset_index()_document](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.reset_index.html)
+
+> [!NOTE]
+> **Syntax**\
+> dataframe.reset_index(level, drop, inplace, col_level, col_fill)
+
+> [!IMPORTANT]
+> By default this method will keep the **"old"** indexes in a column named **"index"**, to avoid this, use the **drop** parameter.
+
+# apply() method
+- This method allows you to apply a function along one of the axis of the DataFrame, **default 0**, which is the index(row) axis.
+> car_sales_missing["Odometer"] = car_sales_missing["Odometer"].apply(lambda x: x / 1.6)\
+:page_with_curl: [apply()_document](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html)
