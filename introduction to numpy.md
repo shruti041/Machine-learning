@@ -48,6 +48,6 @@
 ## Manipulating and Comparing arrays
 >[Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)\
 >[Standard Deviation and Variance](https://www.mathsisfun.com/data/standard-deviation.html)\
->[How to Multiply Matrices](https://www.mathsisfun.com/algebra/matrix-multiplying.html)  **for dot product section**
+>[How to Multiply Matrices](https://www.mathsisfun.com/algebra/matrix-multiplying.html)  **for dot product section**\
 >[Logic functions](https://numpy.org/doc/2.3/reference/routines.logic.html) **numpy comparison operators**
 >
