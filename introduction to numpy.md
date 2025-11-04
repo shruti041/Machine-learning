@@ -8,7 +8,7 @@
 > [Intro](https://www.w3schools.com/python/numpy/numpy_intro.asp)\
 > import numpy as np
 ## DataTypes and Attributes
-- NumPy's main DataType is ndarray.
+- NumPy's main DataType is **ndarray**.
 > al = np.array([1,2,3])
 - [NumPy Array Shape](https://www.w3schools.com/python/numpy/numpy_array_shape.asp)
 > a1.shape
