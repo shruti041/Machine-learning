@@ -68,3 +68,4 @@
 - [Logic functions](https://numpy.org/doc/2.3/reference/routines.logic.html) 
 ## Sorting arrays
 - [Methods](https://www.tutorialspoint.com/find-the-maximum-and-minimum-element-in-a-numpy-array)
+- [numpy.argsort()](https://numpy.org/devdocs/reference/generated/numpy.argsort.html)
