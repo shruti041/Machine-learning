@@ -49,10 +49,10 @@
 >[Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)
 - [Simple Arithmetic](https://www.w3schools.com/python/numpy/numpy_ufunc_simple_arithmetic.asp)
 - [NumPy Logs](https://www.w3schools.com/python/numpy/numpy_ufunc_logs.asp)
-- [Standard Deviation and Variance](https://www.mathsisfun.com/data/standard-deviation.html)\
+- [Standard Deviation and Variance](https://www.mathsisfun.com/data/standard-deviation.html)
 > a2 = np.array([[1,2.3,3.5],
-                [4.7,5.6,6.3]])\
-- np.std(a2) -->  **. std()** function calculates the NumPy standard deviation of given data along a specified axis.\
+                [4.7,5.6,6.3]])
+- np.std(a2) -->  **. std()** function calculates the NumPy standard deviation of given data along a specified axis.
 - np.var(a2) --> The numpy **.var()** function in Python's NumPy library calculates the variance of elements within an array.
 ## Reshaping and Transposing
 - [NumPy Array Reshaping](https://www.w3schools.com/python/numpy/numpy_array_reshape.asp)
