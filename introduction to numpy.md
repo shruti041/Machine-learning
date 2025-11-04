@@ -46,8 +46,25 @@
 > np.unique(random_array4)\
 > [numpy.unique()](https://numpy.org/doc/stable/reference/generated/numpy.unique.html)
 ## Manipulating and Comparing arrays
->[Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)\
+>[Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)
+- [Simple Arithmetic](https://www.w3schools.com/python/numpy/numpy_ufunc_simple_arithmetic.asp)
+- [NumPy Logs](https://www.w3schools.com/python/numpy/numpy_ufunc_logs.asp)
 >[Standard Deviation and Variance](https://www.mathsisfun.com/data/standard-deviation.html)\
->[How to Multiply Matrices](https://www.mathsisfun.com/algebra/matrix-multiplying.html)  **for dot product section**\
->[Logic functions](https://numpy.org/doc/2.3/reference/routines.logic.html) **numpy comparison operators**
->
+> a2 = np.array([[1,2.3,3.5],
+                [4.7,5.6,6.3]])\
+>np.std(a2) -->  **. std()** function calculates the NumPy standard deviation of given data along a specified axis.\
+>np.var(a2) --> The numpy **.var()** function in Python's NumPy library calculates the variance of elements within an array.
+## Reshaping and Transposing
+- [NumPy Array Reshaping](https://www.w3schools.com/python/numpy/numpy_array_reshape.asp)
+- [NumPy Array Transpose](https://numpy.org/devdocs/reference/generated/numpy.ndarray.T.html)
+> a2.T\
+> array([[1. , 4.7],
+       [2.3, 5.6],
+       [3.5, 6.3]])
+## Dot product
+>[How to Multiply Matrices](https://www.mathsisfun.com/algebra/matrix-multiplying.html)
+- [numpy.dot()](https://numpy.org/devdocs/reference/generated/numpy.dot.html)
+## Comparison Operators
+- [Logic functions](https://numpy.org/doc/2.3/reference/routines.logic.html) 
+## Sorting arrays
+- [Methods](https://www.tutorialspoint.com/find-the-maximum-and-minimum-element-in-a-numpy-array)
