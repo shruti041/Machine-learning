@@ -7,3 +7,4 @@ Matplotlib is a powerful and versatile open-source plotting library for Python, 
 - Can create basic or advanced plots
 - Simple to use interface (once you get the foundations)
 > [Overview](https://matplotlib.org/stable/users/index.html)
+> [Regex](https://regexone.com/)
